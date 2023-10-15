@@ -1,0 +1,44 @@
+@import "main.scss";
+   .lin{
+    
+    margin: 4px ;
+    text-decoration: none !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold !important;
+    background-color: $bgcol !important;
+    color: $col;
+    border: 0cm !important;
+   }
+   .cc .lin:hover{
+      color: rgb(159, 86, 248) !important;
+   }
+#menu{
+
+    width: 110px;
+    text-align: center;
+    z-index: 20 !important;
+    border: 1px solid $col;
+    border-radius: $rad !important;
+    box-shadow: 0 0 12px 1px $col;
+    
+
+}
+.icona{
+   display: inline;
+  
+}
+.pp{
+   animation: fad 2s;
+   animation-iteration-count: 1;
+   z-index: 22 !important;
+   background-color: $darkcol !important;
+ 
+}
+.pp:hover{
+   box-shadow: 0 0 12px 2px $col;
+}
+.cc{
+   border-radius: $rad !important;
+   color: $col !important;
+   background-color: $bgcol !important;
+}

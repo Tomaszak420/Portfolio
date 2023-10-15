@@ -1,0 +1,80 @@
+@import 'main.scss';
+input{
+    margin: 3px;
+    
+}
+#wiad{
+    display: flex;
+    position: relative;
+    left: 10% !important;
+resize: none;
+width: 80%;
+height: 200px;
+}
+
+.in{
+background-color: $in;
+border-radius: 10px;
+color: white;
+padding: 4px;
+border: 0;
+outline: none;
+}
+.in:focus{
+    
+    box-shadow: 0 0 15px 1px $col;
+}
+.in:hover{
+    
+    box-shadow: 0 0 15px 1px $col;
+}
+.inf{
+
+    margin: 15px;
+
+}
+#num ,#em{
+visibility: hidden;
+opacity: 0;
+margin-top: -35px;
+transition: 0.3s ease-in;
+}
+.ph, .ema,#ico{
+    cursor: pointer;
+    background-color: $in;
+    padding: 7px;
+    border-radius: $rad;
+    
+}
+#ico{
+    display: block;
+    position: relative;
+   width: 40px;
+   height: 37px;
+   margin-left: auto;
+   margin-right: auto;
+  
+}
+#ico:hover{
+    background-color: hsl(252, 71%, 15%);
+}
+.ph:hover #num{
+    margin-top: 0px;
+    visibility: visible;
+    opacity: 1;
+    
+    
+}
+.ema:hover #em{
+    opacity: 1;
+    margin-top: 0px;
+    visibility: visible;
+}
+.b{
+    margin-bottom: 0;
+}
+
+label{
+    margin-top:4px;
+    margin-bottom: 4px;
+}

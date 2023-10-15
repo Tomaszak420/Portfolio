@@ -1,0 +1,84 @@
+@import "main.scss";
+
+.m{
+    background: $bgcol !important;
+}
+
+.card .face{
+   
+    transition: 0.5s;
+}
+.card .face.face1{
+    border-radius: $rad;
+
+    background: hsl(251, 70%, 11%) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.card:hover .face.face1{
+    background: $darkcol !important;
+    transform: translateY(0);
+}
+.card .face.face1 .content{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.card .face.face1 .content img{
+    max-width: 110px;
+}
+
+.card .face.face1 .content h3{
+    margin: 10px 0 10px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.card .face.face2{
+    border-radius: $rad;
+    position: relative;
+    background: $in;
+    margin-bottom: 20px;
+    display: flex;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transform: translateY(-70px);
+}
+
+ .card:hover .face.face2{
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+}
+
+.ln{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+}
+.card .face.face2  a:hover{
+    background: $darkcol;
+    color: #fff;
+}
+svg{
+   margin: 30px;
+}
