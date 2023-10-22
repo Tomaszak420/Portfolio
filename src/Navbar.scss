@@ -1,5 +1,5 @@
 @import "main.scss";
-   .lin{
+   .link{
     
     margin: 4px ;
     text-decoration: none !important;
@@ -9,7 +9,7 @@
     color: $col;
     border: 0cm !important;
    }
-   .cc .lin:hover{
+   .linki .link:hover{
       color: rgb(159, 86, 248) !important;
    }
 #menu{
@@ -27,17 +27,17 @@
    display: inline;
   
 }
-.pp{
+.przyc{
    animation: fad 2s;
    animation-iteration-count: 1;
    z-index: 22 !important;
    background-color: $darkcol !important;
  
 }
-.pp:hover{
+.przyc:hover{
    box-shadow: 0 0 12px 2px $col;
 }
-.cc{
+.linki{
    border-radius: $rad !important;
    color: $col !important;
    background-color: $bgcol !important;

@@ -4,7 +4,7 @@ import Project1 from './Projekt1/Project1';
 import Project2 from './Projekt2/Project2';
 import Projekty from './Projekty.js';
 import Kontakt from './Kontakt.js';
-import React, { useState } from 'react';
+import React from 'react';
 import { Route, Routes } from "react-router-dom"
 import './rama.scss'
 function App() {

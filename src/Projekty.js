@@ -11,7 +11,7 @@ function Projekty() {
     <h2> Szybkie Projekty</h2>
     <div className="row ">
         <div className="col-12 col-md-6">
-        <div className="card m">
+        <div className="card blok">
             <div className="face face1">
                 <div className="content">
                 <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor" class="bi bi-mouse-fill" viewBox="0 0 16 16">
@@ -28,7 +28,7 @@ function Projekty() {
         </div>
         </div>
         <div className="col-12 col-md-6">
-        <div className="card m">
+        <div className="card blok">
             <div className="face face1">
                 <div className="content">
                 <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor" class="bi bi-patch-question-fill" viewBox="0 0 16 16">
@@ -48,7 +48,7 @@ function Projekty() {
         <div className='row'>
         <h2>Projekty</h2>
         <div className="col-12">
-        <div className="card m">
+        <div className="card blok">
             <div className="face face1">
                 <div className="content">
                 <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
