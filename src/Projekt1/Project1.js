@@ -85,7 +85,7 @@ function Project1() {
     ));
 
     return (
-        <div>
+        <div >
             <div id='ui'>
                 <div id="highscore" className='uii'>
                     Highscore:<br />
@@ -102,7 +102,7 @@ function Project1() {
             </div>
             <div id='game'>
                 <div className='container-flex'>
-                    <div className='row'>{rend}</div>
+                    <div className='row '>{rend}</div>
                 </div>
             </div>
             <button id="starcik" onClick={() => timer()}>

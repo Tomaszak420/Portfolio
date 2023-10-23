@@ -46,11 +46,24 @@ function Main() {
                                 <dt>Mongoose</dt>
                                 <dd>Podstawowy</dd>
                                 <dt>MySQL</dt>
-                                <dd>Średnio zaawansowany</dd>
-                            </dl>
+                                <dd className=' b'>Średnio zaawansowany</dd>
+                            </dl >
                         </div>
                     </div>
+                   
                 </div>
+                <div className='row cer'  >
+                    <div className='col-auto kolumna m-auto ' >
+                            <h3>Certyfikaty</h3>
+                            <dl>
+                                <dt>Egzamin zawodowy kwalifikacja EE.08</dt>
+                                <dd>Montaż i eksploatacja systemów komputerowych,<br/> urządzeń peryferyjnych i sieci</dd>
+                                <dt>Egzamin zawodowy kwalifikacja EE.09</dt>
+                                <dd>Programowanie, tworzenie i administrowanie stronami internetowymi<br/> i bazami danych</dd>
+
+                            </dl>
+                        </div>
+                        </div>
             </div>
             <div id='text'>Jestem po szkole na kierunku informatycznym i <br />
                 studiuję na Politechnice Białostockiej również na <br />

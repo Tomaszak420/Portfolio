@@ -16,9 +16,9 @@ function App() {
       <div className='container-fluid call' >
 
         <div className='row justify-content-center'>
-          <div className='col-xl-auto col-12'>
+          <div className='col-md-auto col-md-auto col-12'>
 
-            <div id='main' className='container'>
+            <div id='main' className='container '>
 
               <Routes>
                 <Route path="/Portfolio/" element={<Main />} />
